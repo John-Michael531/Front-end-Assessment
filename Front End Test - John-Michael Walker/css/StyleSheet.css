@@ -1,0 +1,70 @@
+﻿body
+{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+    width:100%;
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        max-width: 320px;
+    }
+}
+
+.container
+{
+    background-color: lightgray;
+    border: solid;
+    border-block-color: black;
+    border-width:1px;
+    width: 75%; 
+    margin: auto;
+}
+
+h1
+{
+padding-left: 10px;
+font-size: 18px;
+}
+
+h3
+{
+    padding-left: 10px;
+    font-size:14px;
+}
+
+h4
+{
+    padding-left:10px;
+}
+.inpLine
+{
+    width: 350px;
+}
+
+.btnRemove
+{
+    border:1px solid black;
+    background-color: darkgray;
+}
+
+.remove_field
+{
+   
+}
+
+.txtArea {
+    width: 350px;
+    height: 150px;
+}
+
+.btnContainer {
+    padding-left: 10px;
+}
+
+.txtContainer {
+    padding-left: 10px;
+}

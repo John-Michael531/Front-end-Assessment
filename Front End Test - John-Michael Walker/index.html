@@ -1,0 +1,50 @@
+<html>
+<link href="../css/StyleSheet.css" rel="stylesheet" />
+<head>
+    <title>Oderwise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Oderwise Front End Developer Assessment - John-Michael Walker</h1>
+        <p>
+            <h3>Please give your feedback below.</h3>
+        </p>
+        <p>
+            <h3>
+                Click New line if you need more space.<br />
+                Click X to reemove the current line.
+            </h3>
+        </p>
+        <p>
+            <h3>
+                You review must be at least 50 characters, but<br />
+                no more then 1000 characters.
+            </h3>
+        </p>
+        <form method="post">
+            <div id="parent">
+                <h4>
+                    Line 1
+                    <input type="text" name="inpLine" id="inpLine" placeholder="Line 1" class="inpLine" maxlength="40" onkeypress="countCharacters()" />
+                    <input type="button" name="btnRemove" value="X" class="btnRemove" />
+                </h4>
+            </div>
+            
+            <div class="input_fields_wrap">
+               
+            </div>
+
+            <div style="padding-left:10px;">
+                <input type="button" name="btnNewLine" value="New Line" onclick="newLine()" />
+            </div><br />
+
+            <div style="padding-left:10px;">
+                <textarea class="txtArea" name="txtArea" id="txtArea"   ></textarea>
+            </div>
+        </form>
+    </div>
+    <script src="scripts/JavaScript.js"></script>
+</body>
+</html>
